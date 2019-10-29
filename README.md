@@ -35,6 +35,8 @@ In order to start the project use:
 
 ```bash
 $ git clone https://github.com/GopiKrishnaGummadidala/SampleAdminDashboard.git
+
+# Doughnut and Organizational charts these will come by npm install
 $ npm install ng2-charts
 $ npm install chart.js
 
@@ -47,6 +49,11 @@ $ npm install bootstrap
 To include Bootstrap’s CSS file make also sure to add the following line of code in styles.css:
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+$ npm i ng2-org-chart -S
+
+<link rel="stylesheet" href="node_modules/ng2-org-chart/styles.css">
+
 
 # install the project's dependencies
 $ npm install

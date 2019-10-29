@@ -7,6 +7,7 @@ import { StatModule } from '../../shared/modules/stat/stat.module';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { DoughnutModule } from 'src/app/my-doughnut-chart/doughnutModule';
+import { OrgChartComponentModule } from 'src/app/my-org-chart/OrgChartComponentModule';
 
 @NgModule({
     imports: [
@@ -20,6 +21,7 @@ import { DoughnutModule } from 'src/app/my-doughnut-chart/doughnutModule';
         MatButtonModule,
         MatIconModule,
         DoughnutModule,
+        OrgChartComponentModule,
         FlexLayoutModule.withConfig({addFlexToParent: false})
     ],
     declarations: [DashboardComponent]
